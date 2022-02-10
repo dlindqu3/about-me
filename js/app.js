@@ -148,6 +148,7 @@ for (let i = 0; i < 6; i++){
 }
 }
 questionSevenFunc();
+
 console.log(totalCorrect); 
 
 alert(`You answered ${totalCorrect} questions correctly, nice.`);
