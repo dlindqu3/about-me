@@ -90,14 +90,15 @@ let answerFive = prompt("Is Dwight currently attending the Codefellows 201 cours
 // } else if (answerFive === 'n'){
 //   console.log('Answer 5 is incorrect.'); 
 // };
-
+function questionFiveFunc(){
 if (answerFive === 'y'){
   alert('Answer 5 is correct.');
   totalCorrect++;
 } else if (answerFive === 'n'){
   alert('Answer 5 is incorrect.');
 };
-
+}
+questionFiveFunc();
 console.log(totalCorrect); 
 
 //Question 6
