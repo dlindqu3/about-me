@@ -54,14 +54,15 @@ let answerThree = prompt("Can Dwight speak German? Enter 'y' for yes and 'n' for
 // } else if (answerThree === 'y'){
 //   console.log('Answer 3 is incorrect.'); 
 // };
-
+function questionThreeFunc(){
 if (answerThree === 'n'){
   alert('Answer 3 is correct.');
   totalCorrect++; 
 } else if (answerThree === 'y'){
   alert('Answer 3 is incorrect.');
 };
-
+}
+questionThreeFunc();
 console.log(totalCorrect); 
 
 let answerFour = prompt("Does Dwight have experience working with Java? Enter 'y' for yes and 'n' for no.").toLowerCase(); 
