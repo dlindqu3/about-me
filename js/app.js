@@ -72,14 +72,15 @@ let answerFour = prompt("Does Dwight have experience working with Java? Enter 'y
 // } else if (answerFour === 'y'){
 //   console.log('Answer 4 is incorrect.'); 
 // };
-
+function questionFourFunc(){
 if (answerFour === 'n'){
   alert('Answer 4 is correct.');
   totalCorrect++;
 } else if (answerFour === 'y'){
   alert('Answer 4 is incorrect.');
 };
-
+}
+questionFourFunc();
 console.log(totalCorrect); 
 
 let answerFive = prompt("Is Dwight currently attending the Codefellows 201 course? Enter 'y' for yes and 'n' for no.").toLowerCase(); 
