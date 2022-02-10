@@ -126,7 +126,7 @@ alert(`Thank you for participating, ${userName}.`);
 //Question 7
 
 let breakLoop = false; 
-
+function questionSevenFunc(){
 for (let i = 0; i < 6; i++){
   let correctCountries = ['china', 'england', 'ireland']; 
   let correctCountriesCaps = ['China', 'England', 'Ireland']; 
@@ -146,7 +146,8 @@ for (let i = 0; i < 6; i++){
     break; 
   }
 }
-
+}
+questionSevenFunc();
 console.log(totalCorrect); 
 
 alert(`You answered ${totalCorrect} questions correctly, nice.`);
