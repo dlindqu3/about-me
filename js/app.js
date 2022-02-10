@@ -36,14 +36,15 @@ let answerTwo = prompt("Has Dwight completed an MA? Enter 'y' for yes and 'n' fo
 // } else if (answerTwo === 'n'){
 //   console.log('Answer 2 is incorrect.'); 
 // };
-
+function questionTwoFunc(){
 if (answerTwo === 'y'){
   alert('Answer 2 is correct.');
   totalCorrect++; 
 } else if (answerTwo === 'n'){
   alert('Answer 2 is incorrect.');
 };
-
+}
+questionTwoFunc();
 console.log(totalCorrect); 
 
 let answerThree = prompt("Can Dwight speak German? Enter 'y' for yes and 'n' for no.").toLowerCase(); 
