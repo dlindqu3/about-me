@@ -102,7 +102,7 @@ questionFiveFunc();
 console.log(totalCorrect); 
 
 //Question 6
-
+function questionSixFunc(){
 for (let i = 0; i < 4; i++){
   let correctNum = 5; 
   let currentGuess = prompt('Guess a number from 1 to 10. You have 4 chances. Good luck!'); 
@@ -117,7 +117,8 @@ for (let i = 0; i < 4; i++){
     alert('Your previous selection was too low.'); 
   }
 }
-
+}
+questionSixFunc();
 console.log(totalCorrect); 
 
 alert(`Thank you for participating, ${userName}.`); 
