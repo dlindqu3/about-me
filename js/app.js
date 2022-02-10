@@ -18,14 +18,15 @@ let answerOne = prompt("Is Dwight from Atlanta, GA? Enter 'y' for yes and 'n' fo
 // } else if (answerOne === 'n'){
 //   console.log('Answer 1 is incorrect.'); 
 // };
-
+function questionOneFunc(){
 if (answerOne === 'y'){
   alert('Answer 1 is correct.');
   totalCorrect++;
 } else if (answerOne === 'n'){
   alert('Answer 1 is incorrect.');
 };
-
+}
+questionOneFunc();
 console.log(totalCorrect); 
 
 let answerTwo = prompt("Has Dwight completed an MA? Enter 'y' for yes and 'n' for no.").toLowerCase(); 
