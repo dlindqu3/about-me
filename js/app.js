@@ -13,11 +13,6 @@ alert(`Welcome to our site, ${userName}.`);
 
 let answerOne = prompt("Is Dwight from Atlanta, GA? Enter 'y' for yes and 'n' for no.").toLowerCase(); 
 
-// if (answerOne === 'y'){
-//   console.log('Answer 1 is correct.');
-// } else if (answerOne === 'n'){
-//   console.log('Answer 1 is incorrect.'); 
-// };
 function questionOneFunc(){
 if (answerOne === 'y'){
   alert('Answer 1 is correct.');
@@ -27,15 +22,10 @@ if (answerOne === 'y'){
 };
 }
 questionOneFunc();
-console.log(totalCorrect); 
+ 
 
 let answerTwo = prompt("Has Dwight completed an MA? Enter 'y' for yes and 'n' for no.").toLowerCase(); 
 
-// if (answerTwo === 'y'){
-//   console.log('Answer 2 is correct.');
-// } else if (answerTwo === 'n'){
-//   console.log('Answer 2 is incorrect.'); 
-// };
 function questionTwoFunc(){
 if (answerTwo === 'y'){
   alert('Answer 2 is correct.');
@@ -44,16 +34,10 @@ if (answerTwo === 'y'){
   alert('Answer 2 is incorrect.');
 };
 }
-questionTwoFunc();
-console.log(totalCorrect); 
+questionTwoFunc(); 
 
 let answerThree = prompt("Can Dwight speak German? Enter 'y' for yes and 'n' for no.").toLowerCase(); 
 
-// if (answerThree === 'n'){
-//   console.log('Answer 3 is correct.');
-// } else if (answerThree === 'y'){
-//   console.log('Answer 3 is incorrect.'); 
-// };
 function questionThreeFunc(){
 if (answerThree === 'n'){
   alert('Answer 3 is correct.');
@@ -63,15 +47,9 @@ if (answerThree === 'n'){
 };
 }
 questionThreeFunc();
-console.log(totalCorrect); 
 
 let answerFour = prompt("Does Dwight have experience working with Java? Enter 'y' for yes and 'n' for no.").toLowerCase(); 
 
-// if (answerFour === 'n'){
-//   console.log('Answer 4 is correct.');
-// } else if (answerFour === 'y'){
-//   console.log('Answer 4 is incorrect.'); 
-// };
 function questionFourFunc(){
 if (answerFour === 'n'){
   alert('Answer 4 is correct.');
@@ -81,15 +59,9 @@ if (answerFour === 'n'){
 };
 }
 questionFourFunc();
-console.log(totalCorrect); 
 
 let answerFive = prompt("Is Dwight currently attending the Codefellows 201 course? Enter 'y' for yes and 'n' for no.").toLowerCase(); 
 
-// if (answerFive === 'y'){
-//   console.log('Answer 5 is correct.');
-// } else if (answerFive === 'n'){
-//   console.log('Answer 5 is incorrect.'); 
-// };
 function questionFiveFunc(){
 if (answerFive === 'y'){
   alert('Answer 5 is correct.');
@@ -99,9 +71,7 @@ if (answerFive === 'y'){
 };
 }
 questionFiveFunc();
-console.log(totalCorrect); 
 
-//Question 6
 function questionSixFunc(){
 for (let i = 0; i < 4; i++){
   let correctNum = 5; 
@@ -119,11 +89,8 @@ for (let i = 0; i < 4; i++){
 }
 }
 questionSixFunc();
-console.log(totalCorrect); 
 
 alert(`Thank you for participating, ${userName}.`); 
-
-//Question 7
 
 let breakLoop = false; 
 function questionSevenFunc(){
@@ -147,8 +114,6 @@ for (let i = 0; i < 6; i++){
   }
 }
 }
-questionSevenFunc();
-
-console.log(totalCorrect); 
+questionSevenFunc(); 
 
 alert(`You answered ${totalCorrect} questions correctly, nice.`);
